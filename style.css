@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    padding: 30px;
+    font-family: cursive;
+}
+
+.wrapper {
+    margin: auto;
+    border-radius: 8px;
+}
+
+.wrapper .join {
+    background-color: white;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+}
+
+.join .heading h1 {
+    font-size: 18px;
+    color: hsl(179, 62%, 43%);
+    font-weight: 500;
+}
+
+.join .sub-heading p {
+    font-size: 16px;
+    color: hsl(71, 73%, 54%);
+    font-weight: 400;
+}
+
+.join .p-body p {
+    font-size: 13px;
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.wrapper .subscription {
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    color: white;
+}
+
+.subscription .heading h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.subscription .pricing h1 {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.subscription .pricing h1 span {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: hsl(179, 73%, 48%);
+
+}
+
+.subscription .pricing p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.subscription button {
+    width: 100%;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.wrapper .why {
+    background-color: hsl(179, 79%, 43%);
+    padding: 20px 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    color: white;
+}
+
+.why .heading h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.why .why-list ul {
+    list-style-type: none;
+}
+
+.why .why-list li {
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+@media screen and (min-width:1000px) {
+    body {
+        background-color: hsl(204, 43%, 93%);
+        padding: 30px;
+        font-family: cursive;
+    }
+
+    .wrapper {
+        margin: auto;
+        width: 500px;
+        border-radius: 10px;
+
+    }
+
+    .wrapper .sub-why {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .wrapper .join {
+        background-color: white;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5px;
+    }
+
+    .join .heading h1 {
+        font-size: 16px;
+        color: hsl(179, 62%, 43%);
+        font-weight: 400;
+    }
+
+    .join .sub-heading p {
+        font-size: 16px;
+        color: hsl(71, 73%, 54%);
+        font-weight: 400;
+    }
+
+    .join .p-body p {
+        font-size: 12px;
+        color: hsl(218, 22%, 67%);
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .wrapper .subscription {
+        background-color: hsl(179, 62%, 43%);
+        padding: 20px 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        color: white;
+    }
+
+    .subscription .heading h1 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .subscription .pricing h1 {
+        font-size: 15px;
+        font-weight: 400;
+
+    }
+
+    .subscription .pricing h1 span {
+        font-size: 10px;
+        font-weight: 400;
+        margin-left: 10px;
+        color: hsl(179, 73%, 48%);
+
+    }
+
+    .subscription .pricing p {
+        font-size: 11px;
+        font-weight: 200;
+        margin-top: 10px;
+    }
+
+    .subscription button {
+        width: 100%;
+        color: white;
+        background-color: hsl(71, 73%, 54%);
+        text-align: center;
+        outline: none;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        margin-top: 5px;
+        font-family: inherit;
+        font-size: 13px;
+    }
+
+    .wrapper .why {
+        background-color: hsl(179, 79%, 43%);
+        padding: 20px 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        color: white;
+    }
+
+    .why .heading h1 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .why .why-list ul {
+        list-style-type: none;
+    }
+
+    .why .why-list li {
+        font-size: 10px;
+        font-weight: 200;
+        margin-top: 0px;
+    }
+}
