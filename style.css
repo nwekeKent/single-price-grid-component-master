@@ -1,16 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: hsl(204, 43%, 93%);
     padding: 30px;
-    font-family: cursive;
+    font-family: 'Karla', sans-serif;
 }
 
 .wrapper {
-    margin: auto;
+    margin: 50px auto;
     border-radius: 8px;
 }
 
@@ -58,15 +59,13 @@ body {
 .subscription .pricing h1 {
     font-size: 30px;
     font-weight: 500;
-
 }
 
 .subscription .pricing h1 span {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     margin-left: 10px;
     color: hsl(179, 73%, 48%);
-
 }
 
 .subscription .pricing p {
@@ -111,7 +110,26 @@ body {
     margin-top: 5px;
 }
 
-@media screen and (min-width:1000px) {
+footer {
+    margin: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(234, 12%, 34%);
+    transition: all 0.5s ease-in-out;
+}
+
+footer a:hover {
+    color: salmon;
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+
+@media screen and (min-width: 1000px) {
     body {
         background-color: hsl(204, 43%, 93%);
         padding: 30px;
@@ -122,7 +140,12 @@ body {
         margin: auto;
         width: 500px;
         border-radius: 10px;
-
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 5px 5px 11px hsl(203, 52%, 90%),
+            -5px -5px 11px hsl(204, 43%, 93%);
     }
 
     .wrapper .sub-why {
@@ -174,7 +197,6 @@ body {
     .subscription .pricing h1 {
         font-size: 15px;
         font-weight: 400;
-
     }
 
     .subscription .pricing h1 span {
@@ -182,7 +204,6 @@ body {
         font-weight: 400;
         margin-left: 10px;
         color: hsl(179, 73%, 48%);
-
     }
 
     .subscription .pricing p {
@@ -227,5 +248,14 @@ body {
         font-size: 10px;
         font-weight: 200;
         margin-top: 0px;
+    }
+
+    footer {
+        margin: 30px;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        left: 300px;
     }
 }
