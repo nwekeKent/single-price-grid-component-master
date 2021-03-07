@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +15,7 @@ body {
 .wrapper {
     margin: 50px auto;
     border-radius: 8px;
+    overflow: hidden;
 }
 
 .wrapper .join {
@@ -107,7 +110,7 @@ body {
 .why .why-list li {
     font-size: 13px;
     font-weight: 200;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 footer {
@@ -146,6 +149,7 @@ footer a:hover {
         transform: translate(-50%, -50%);
         box-shadow: 5px 5px 11px hsl(203, 52%, 90%),
             -5px -5px 11px hsl(204, 43%, 93%);
+            font-family: 'Karla', sans-serif;
     }
 
     .wrapper .sub-why {
@@ -171,6 +175,7 @@ footer a:hover {
         font-size: 16px;
         color: hsl(71, 73%, 54%);
         font-weight: 400;
+        
     }
 
     .join .p-body p {
@@ -247,7 +252,7 @@ footer a:hover {
     .why .why-list li {
         font-size: 10px;
         font-weight: 200;
-        margin-top: 0px;
+        margin-top: 6px;
     }
 
     footer {
